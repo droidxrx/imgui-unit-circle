@@ -1,0 +1,17 @@
+{
+	"recommendations": [
+		"tdennis4496.cmantic",
+		"2211896472.snippets",
+		"stolyarchuk.cpp-better-classes",
+		"llvm-vs-code-extensions.vscode-clangd",
+		"twxs.cmake",
+		"ms-vscode.cmake-tools",
+		"cheshirekow.cmake-format",
+		"visualstudioexptteam.vscodeintellicode",
+		"pkief.material-icon-theme",
+		"christian-kohler.path-intellisense",
+		"esbenp.prettier-vscode",
+		"cantonios.project-templates",
+		"funkyremi.vscode-google-translate"
+	]
+}

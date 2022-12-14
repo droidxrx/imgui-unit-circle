@@ -1,0 +1,22 @@
+{
+	"cmake.parallelJobs": 4,
+	"cmake.configureSettings": {
+		"CMAKE_TOOLCHAIN_FILE": "${env:VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake",
+		"VCPKG_TARGET_TRIPLET": "x64-windows-static",
+		"CMAKE_C_COMPILER": "${env:CLANG_WINDOW_BIN}/clang.exe",
+		"CMAKE_CXX_COMPILER": "${env:CLANG_WINDOW_BIN}/clang++.exe",
+		"CMAKE_CXX_STANDARD": 17,
+		"CMAKE_CXX_STANDARD_REQUIRED": true,
+		"CMAKE_CXX_EXTENSIONS": false
+	},
+	"clangd.arguments": [
+		"--background-index",
+		"--pch-storage=memory",
+		"--offset-encoding=utf-8",
+		"--header-insertion=never",
+		"--pretty",
+		"--clang-tidy",
+		"--completion-style=detailed",
+		"--compile-commands-dir=${workspaceFolder}\\build"
+	]
+}
